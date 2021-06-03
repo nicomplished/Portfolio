@@ -1,0 +1,158 @@
+.navButton {
+    padding: 7px;
+    text-decoration: none;
+    color: #643535;
+}
+
+.navButton:hover {
+    font-weight: 800;
+    text-decoration: none;
+    color: #643535;
+
+}
+
+
+/* Hero Image */
+
+
+.heroImg{
+    width: 100%;
+    height: 470px;
+    margin: 60px 0 160px 0px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100%;
+    height: 100%;  
+}
+
+.deviceMockup {
+    margin-left: 630px;
+    margin-top: -300px;
+    width: 400px;
+    height: 468px;
+    top: -250px;
+    position: relative;
+}
+
+.content {
+    width: 1000px;
+    height: 580px;
+    background-color: #EFBDBD;
+}
+
+.heroText1 {
+    color: #643535;
+    padding-left: 60px;
+    margin-top: 30px;
+}
+
+.heroText2 {
+    color: #643535;
+    width: 600px;
+    padding-left: 60px;
+    text-align: left;
+}
+
+.aboutMe {
+    color: #643535;
+    width: 600px;
+    padding-left: 60px;
+    /* margin-top: -40px; */
+}
+
+
+.pageHeader1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.prototypeButtons{
+    margin-left: 30px;
+
+}
+
+.ButtonHover:hover {
+    color: #643535;
+
+}
+
+.prototypeLink{
+    width: 20%;
+    float: left;
+}
+
+/* CARDS */
+
+
+.cardTitle {
+    text-align: left;
+}
+
+
+.cardText {
+    text-align: left;
+    display: inline-block;
+
+}
+
+.row {
+    margin-top: 120px;
+}
+
+.image {
+    height: 100%;
+}
+
+.bottom {
+    margin-bottom: 120px;
+}
+
+
+
+/* Footer classes */
+
+.icons {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 22px 0;
+}
+
+.socialMedia {
+    width: 50px;
+    height: 30px;
+    padding: 0 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.copyright {
+    float: right;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: #643535;
+    width: 100%;
+    margin-top: 18px;
+    padding: 0 0 0 40px;
+}
+
+.textDecoration {
+    color: #643535;
+ 
+}
+
+.textDecoration:hover {
+    text-decoration: none;
+    color: #643535;
+}
+
+

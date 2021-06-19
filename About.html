@@ -1,44 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        
-        <title></title>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">  
-        <link href="CSS/styleAbout.css" rel="stylesheet" type="text/css">
-        <link href="CSS/style.css" rel="stylesheet" type="text/css">
 
-    </head>
-    <body>
+<head>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- NAVIGATION BELOW!!! -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
 
-    <header class="navigation">
+        <script src="index.js"></script>
 
-        <img src="Images/NICOLE LINDSOE.png" class="inline-block logo">
+    <title></title>
 
-        <nav class="inline-block">
-            <ul class="inline-block">
-                <li class="inline-block"><a href="index.html" class="navButton width inline-block">Home</a></li>
-                <li class="inline-block"><a href="About.html" class="navButton width inline-block">About</a></li>
-                <li class="inline-block"><a href="MyWork.html" class="navButton width2 inline-block">My Work</a></li>
-                <li class="inline-block"><a href="..." class="resumeButton width3 inline-block">RESUME</a></li>
-            </ul>
-        </nav>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 
-    </header>        
+    <link href="CSS/style.css" rel="stylesheet" type="text/css">
+    <link href="CSS/styleAbout.css" rel="stylesheet" type="text/css">
 
 
+</head>
 
-     <!-- HERO IMAGE BELOW!!! -->
+<body>
 
-     <section class="heroImg">
-        <div class="box content">
-             <div>
-                <h1 class="heroText1">About Me</h1>
-                <p class="aboutMe">Hello, I am Nicole Lindsoe! I am a UX/UI designer, as well as a graphic designer. My other skills include illustration and social media marketing.
+
+    <!-- NAV HERE -->
+
+<nav class="inline-block col-12">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 inline-block">
+
+                <div class="col-4 inline-block logoWeb logo">
+                    <a href="index.html"><img src="images/logo.png" class="col-12 inline-block"
+                            style="min-width: 200px;"></a>
+                </div>
+
+                <div class="col-11 logoMobile logo">
+                    <a href="index.html"><img src="images/logo.png" class="inline-block" style="min-width: 200px;"></a>
+                </div>
+
+                <a href="javascript:showhide('HamburgerMenu')"
+                    class="col-11 inline-block hamburger floatR" height="30px">
+                    <img src="images/hamburger1.png" class="inline-block">
+                </a>
+
+                <div id="HamburgerMenu" class="col-12" style="display:none;">
+                    <br>
+                    <a href="index.html" class="NoDecoration">
+                        <h3 class="HamburgerMenuText MenuItems">Home</h3>
+                    </a>
+                    <br>
+                    <a href="About.html" class="NoDecoration">
+                        <h3 class="HamburgerMenuText MenuItems">About</h3>
+                    </a>
+                    <br>
+                    <a href="MyWork.html" class="NoDecoration">
+                        <h3 class="HamburgerMenuText MenuItems">My Work</h3>
+                    </a>
+                    <br>
+                    <a href="..." class="NoDecoration">
+                        <h3 class="HamburgerMenuText MenuItems">Resume</h3>
+                    </a>
+                    <br>
+                </div>
+
+                <div class="inline-block col-8 NavSelection">
+                        <ul>
+                            <li class="inline-block col-3 floatR"><a href="..." class="NoDecoration ResumeButton inline-block">Resume</a></li>
+                            <li class="inline-block col-3 floatR"><a href="MyWork.html" class="NoDecoration navButton">My Work</a></li>
+                            <li class="inline-block col-3 floatR"><a href="About.html" class="NoDecoration navButton">About</a></li>
+                            <li class="inline-block col-3 floatR"><a href="index.html"class="NoDecoration navButton">Home</a></li>
+                        </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+        <!-- HERO IMAGE BELOW!!! -->
+
+<section class="container bottom120 col-9">
+
+    <div class="HeroBG-About">
+        <div class="row">
+
+            <div class="col-6">
+                <h1 class="col-12" style="font-size:5vw;">About Me</h1>
+                    <br>   
+                <p>Hello, I am Nicole Lindsoe! I am a UX/UI designer, as well as a graphic designer. My other skills include illustration and social media marketing.
                     <br>
                     <br>
                     I specialize in prototyping and graphic design, and enjoy solving everyday user problems to provide effortless user experiences. I am proficient in Illustrator, Photoshop, InDesign, Figma, Miro, Invision. 
@@ -49,86 +110,117 @@
                     <br>
                     I’m an easy-going, adventurous person with a passion for art and design, animals, nature, and travelling. When I’m not working on design, you can find me riding my horses, painting, hiking, and travelling. I’m a major animal lover and my family has two dogs, three cats, and four horses on our hobby farm.
                     </p>
+
             </div> 
-         <img src="Images/Nicole-Earl.png" class="box earl">
 
-         </div>
-    </section>
+            <div class="col-5">
+                <img src="Images/Nicole-Earl.png" class="responsive" style="max-width: 450px; min-width: 250px;">
+            </div>
 
-    <!-- SKILLS BELOW -->
-    
-    <hr>
+        </div>
+    </div>
 
-    <h2 class="pageHeader1">My Skills</h2>
+</section>
+
+        <!-- SKILLS BELOW!!! -->
+
+<hr class="col-10 d-flex bottom60">
+
+<h2 class="col-12 bottom60">My Skills</h2>
 
 
+<section class="container bottom120 Skills">
+
+        <div class="row">
+
+            <div class="col-4 SkillsBox">
+                <h2 class="SkillsHead">UX Design</h2>
+
+                <ul class="col-10 floatR">
+                    <li><p class="SkillsTXT">Adobe Creative Suite</p></li>
+                    <li><p class="SkillsTXT">Figma</p></li>
+                    <li><p class="SkillsTXT">InVision</p></li>
+                    <li><p class="SkillsTXT">Interaction Design</p></li>
+                    <li><p class="SkillsTXT">Content Strategy</p></li>
+                    <li><p class="SkillsTXT">Wireframing</p></li>
+                    <li><p class="SkillsTXT">HTML & CSS</p></li>
+                </ul>
+            </div> 
+
+                <div class="col-4 Lines">
+                    <h2 class="SkillsHead">Graphic Design</h2>
+
+                    <ul class="col-10 floatR">
+                        <li><p class="SkillsTXT">Brand Identity</p></li>
+                        <li><p class="SkillsTXT">Illustration</p></li>
+                        <li><p class="SkillsTXT">Photography</p></li>
+                        <li><p class="SkillsTXT">Photo manipulation</p></li>
+                        <li><p class="SkillsTXT">Typography</p></li>
+                        <li><p class="SkillsTXT">Signage Design</p></li>
+                        <li><p class="SkillsTXT">Marketing</p></li>
+                    </ul>
+                 </div> 
 
 
-    <section class="skillCards">
-        <div class="card123">
-            <h2 class="cardHeader">UX Design</h2>
+           <div class="col-4 SkillsBox">
+                <h2 class="SkillsHead">User Research</h2>
 
-            <ul class="cardList">
-                <li class="cardListItems">Adobe Creative Suite</li>
-                <li class="cardListItems">Figma</li>
-                <li class="cardListItems">InVision</li>
-                <li class="cardListItems">Interaction Design</li>
-                <li class="cardListItems">Content Strategy</li>
-                <li class="cardListItems">Wireframing</li>
-                <li class="cardListItems">HTML & CSS</li>
+                <ul class="col-10 floatR">
+                    <li><p class="SkillsTXT">User Interviews</p></li>
+                    <li><p class="SkillsTXT">Usability Testing</p></li>
+                    <li><p class="SkillsTXT">Complex Mapping</p></li>
+                    <li><p class="SkillsTXT">User Personas</p></li>
+                    <li><p class="SkillsTXT">Data Analyzation</p></li>
+                    <li><p class="SkillsTXT">Competitor Research</p></li>
+                    <li><p class="SkillsTXT">Storyboarding</p></li>
             </ul>
+        </div> 
+
+
         </div>
 
-        <div class="card123">
-            <h2 class="cardHeader">Graphic Design</h2>
-            <ul class="cardList">
-                <li class="cardListItems">Brand Identity</li>
-                <li class="cardListItems">Illustration</li>
-                <li class="cardListItems">Photography</li>
-                <li class="cardListItems">Photo manipulation</li>
-                <li class="cardListItems">Typography</li>
-                <li class="cardListItems">Signage Design</li>
-                <li class="cardListItems">Marketing</li>
-            </ul>
-        </div>
-
-        <div class="card123">
-            <h2 class="cardHeader">User Research</h2>
-            <ul class="cardList">
-                <li class="cardListItems">User Interviews</li>
-                <li class="cardListItems">Usability Testing</li>
-                <li class="cardListItems">Complex Mapping</li>
-                <li class="cardListItems">User Personas</li>
-                <li class="cardListItems">Data Analyzation</li>
-                <li class="cardListItems">Competitor Research</li>
-                <li class="cardListItems">Storyboarding</li>
-            </ul>
-        </div>
-
-    </section>
-
-            <!-- FOOTER BELOW!!! -->
+</section>
 
 
 
-            <footer class="footerStyle">
+
+    <!-- FOOTER BELOW!!! -->
+
+<footer class="inline-block footerStyle col-12">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 inline-block">
+
                 <ul class="footerText">
-                    <li class="inline-block2 navButton2"><a href="index.html" class="NoDecoration">Home</a></li>
-                    <li class="inline-block2 navButton2"><a href="About.html" class="NoDecoration">About</a></li>
-                    <li class="inline-block2 navButton2"><a href="MyWork.html" class="NoDecoration">My Work</a></li>
+                    <li class="inline-block FooterButton"><a href="index.html" class="NoDecoration"><p>Home</p></a></li>
+                    <li class="inline-block FooterButton"><a href="About.html" class="NoDecoration"><p>About</p></a></li>
+                    <li class="inline-block FooterButton"><a href="MyWork.html" class="NoDecoration"><p>Work</p></a></li>
                 </ul>
-        
-                <ul class="icons">
-                    <li class="inline-block2"><a href="mailto: mv.nel97@gmail.com"><img src="Images/Social_Media_Email.png" class="socialMedia hoverIcons"></a></li>
-                    <li class="inline-block2"><a href="https://www.instagram.com/nicomplished/" target="_blank" ><img src="Images/Social_Media_Instagram.png" class="socialMedia hoverIcons"></a></li>
-                    <li class="inline-block2"><a href="https://www.linkedin.com/in/lindsoen1230/" target="_blank" ><img src="Images/Social_Media_LinkedIn.png" class="socialMedia hoverIcons"></a></li>
+
+                <ul class="iconsBox" style="height: 40px;">
+
+                    <li class="icons inline-block"><a href="mailto: mv.nel97@gmail.com">
+                        <img src="Images/Social_Media_Email.png" class="hoverIcons"></a>
+                    </li>
+
+                    <li class="icons inline-block"><a href="https://www.instagram.com/nicomplished/" target="_blank">
+                        <img src="Images/Social_Media_Instagram.png" class="hoverIcons"></a>
+                    </li>
+                    
+                    <li class="icons inline-block"><a href="https://www.linkedin.com/in/lindsoen1230/" target="_blank">
+                        <img src="Images/Social_Media_LinkedIn.png" class="hoverIcons"></a>
+                    </li>
                 </ul>
-        
-                <p class="copyright">Copyright © 2021 Nicole Lindsoe</p>
-        
-            </footer>
+
+                <p class="col-12" style="text-align: center;">Copyright © 2021 Nicole Lindsoe</p>
+           
+            </div>
+        </div>
+</footer>
+    
 
 
 
-</body>
+    </body>
 </html>

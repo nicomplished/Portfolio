@@ -1,74 +1,342 @@
 .inline-block {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
 }
-
-.navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-}
-
-
-.resumeButton {
-    background-color: #EFBDBD;
-    color: #643535;
-    padding: 7px;
-    text-decoration: none;
-
-}
-
-.resumeButton:hover {
-    background-color: #643535;
-    color: #EFBDBD;
-    font-weight: 800;
-    text-decoration: none;
-}
-
-.navButton {
-    padding: 7px;
-    text-decoration: none;
-    color: #643535;
-}
-
-.navButton:hover {
-    font-weight: 800;
-    text-decoration: none;
-}
-
-.width {
-    width: 60px;
-}
-
-.width2 {
-    width: 100px
-}
-
-.width3 {
-    width: 90px
-}
-
-.width4 {
-    width: 70px;
-}
-
 
 .logo {
-    width: 22%;
-    padding: 1%;
-    margin-left: auto;
+    padding: 35px 0 35px 0 !important;
+}
+
+@media screen and (min-width: 801px) {
+    .logoWeb {
+        display: inline-block;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .logoWeb {
+        display: none;
+    }
+  }
+
+
+.logoMobile {
+    float: right;
+}
+
+@media screen and (min-width: 801px) {
+    .logoMobile {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .logoMobile {
+        display: block;
+    }
+  }
+
+
+  @media screen and (min-width: 801px) {
+    .hamburger {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .hamburger {
+        display: block;
+    }
+  }   
+
+#HamburgerMenu {
+    background-color: rgb(255, 255, 255, 0.9);
+    height: 290px;
+    position: absolute;
+    text-decoration: none;
+    top: 150px;
+  }
+
+  @media screen and (min-width: 801px) {
+    #HamburgerMenu {
+        z-index: 0;       
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    #HamburgerMenu {
+        z-index: 1;       
+
+    }     
+  }
+
+
+ @media screen and (min-width: 801px) {
+    .MenuItems {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .MenuItems {
+        display: block;
+    }
+  }  
+
+.HamburgerMenuText {
+    color: #643535;
+    text-align: center;
+    height: 40px;
+    padding: 5px;
+}
+
+.HamburgerMenuText:hover {
+    text-decoration: none;
+    background-color: #643535;
+    color: #EFBDBD;
+}
+
+.NavSelection {
+    margin-top: 15px;
+    float: right;
+}
+
+      @media screen and (min-width: 801px) {
+        .NavSelection {
+            display: block;
+        }
+      }
+      
+      @media screen and (max-width: 800px) {
+        .NavSelection {
+            display: none;
+        }
+      }
+
+
+.NoDecoration {
+    text-decoration: none !important;
+}
+
+      .navButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #643535;
+    text-decoration: none !important;
+    }
+    
+    .navButton:hover {
+        text-decoration: none;
+        background-color: rgb(239, 189, 189, 0.4);
+    }
+
+    .ResumeButton {
+        background-color: #EFBDBD;
+        padding: 15px;
+        font-family: 'Abel', sans-serif;
+        font-size: 24px;
+        font-weight: lighter;
+        color: #643535;
+        text-decoration: none;
+    }
+    
+    .ResumeButton:hover {
+        background-color: #643535;
+        text-decoration: none;
+    }
+    ul .ResumeButton:hover{ 
+        color: #EFBDBD !important;
+    }    
+
+
+/* typography tags */
+
+hr {
+    background-color: #EFBDBD;
+    height: 1px;
+    border: none;
+}
+
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    font-weight: normal;
+    color: #643535;
+    text-decoration: none;
+
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    color: #643535;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+h3 {
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #643535;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    color: #643535;
+}
+
+
+button{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #643535;
+    background-color: white;
+    border: none;
+    height: 50px;
+    float: right;
+}
+
+button:hover {
+    color: #EFBDBD;
+    background-color: #643535;
+}
+
+
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding: 0;
+}
+
+
+/* positioning tags */
+
+.responsive {
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+    margin-top: -30px;
+  }
+
+.container {
+    text-decoration: none !important;
+    z-index: 0;
+}
+
+.floatR {
+    float: right;
+    position: relative;
+}
+
+.floatL {
+    float: left;
+    position: relative;
+}
+
+.box {
+    width: 100%;
+    height: 100%;  
+}  
+
+.marginR90 {
+    margin-right: 90px;
+}
+
+.marginR55 {
+    margin-right: 55px;
+}
+
+.marginL90 {
+    margin-left: 90px;
+}
+
+.marginL55 {
+    margin-left: 55px;
+}
+
+.marginL30 {
+    margin-left: 30px;
+}
+
+.bottom60 {
+    margin-bottom: 60px;
+}
+
+.bottom120 {
+    margin-bottom: 120px;
+}
+
+
+@media screen and (min-width: 901px) {
+    .bottom290 {
+        margin-bottom: 290px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .bottom290 {
+        margin-bottom: 0px;
+    }
+  }
+
+
+/* borders */
+
+.border {
+    border: 1px solid orange;
+}
+
+.border2 {
+    border: 1px solid green;
+}
+
+.border3 {
+    border: 1px solid blue;
+}
+
+.border4 {
+    border: 1px solid purple;
 }
 
 
 /* Footer classes */
 
+.icons {
+    margin: 0 30px;
+    width: 35px;
+}
+
+.iconsBox {
+    justify-content: center;
+    align-content: center;
+    text-decoration: none; 
+    display: flex;
+    margin: 30px 0px;
+}
+
 .footerStyle {
-    height: 270px;
+    height: 300px;
     background-color: #EFBDBD;
     width: 100%;
     text-decoration: none;
-
 }
 
 .footerText {
@@ -80,9 +348,9 @@
     text-decoration: none;
 }
 
-
 .hoverIcons {
     transition: width .5s, height .5s ease;
+    width: 30px;
 }
 
 .hoverIcons:hover {
@@ -90,30 +358,30 @@
 }
 
 
-.inline-block2 {
-    display: inline-block;
-}
-
-.navButton2 {
+.FooterButton {
     color: #643535;
     width: 100px;
     margin: 0 3px;
     display: flex;
     align-content: center;
     justify-content: center;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+.FooterButton p {
+    font-size: 24px;
 
 }
 
 
-.navButton2:hover {
+.FooterButton:hover {
     font-weight: 800;
     text-decoration: none;
     color: #643535;
 
 }
 
-.navButton2:link {
+.FooterButton:link {
     text-decoration: none;
     color: #643535;
 }
@@ -128,84 +396,4 @@
     text-decoration: none;
     color: #643535;
 
-}
-
-
-
-/* other tags */
-
-hr{
-    background-color: #EFBDBD;
-    height: 1px;
-    border: none;
-    width: 90%;
-}
-
-nav {
-    width: 73%;
-    padding: 1%;
-}
-
-ul {
-    margin-left: auto;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: lighter;
-    font-size: 22px;
-    float: right;
-}
-
-li {
-    margin-left: 20px;
-}
-
-
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 60px;
-    font-weight: normal;
-}
-
-h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
-    color: #643535;
-    text-align: center;
-}
-
-h3 {
-    font-family: 'Abel', sans-serif;
-    font-size: 24px;
-    font-weight: lighter;
-    color: #643535;
-}
-
-p{
-    font-family: 'Abel', sans-serif;
-    font-size: 18px;
-}
-
-button{
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: lighter;
-    font-size: 22px;
-    color: #643535;
-    background-color: white;
-    border: none;
-    height: 50px;
-    width: 150px;
-    margin: 10px 30px 30px 30px;
-    float: right;
-}
-
-.btn:hover {
-    background-color: #643535;
-    color: white !important;
-}
-
-html,body {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
 }

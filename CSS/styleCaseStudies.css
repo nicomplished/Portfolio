@@ -1,0 +1,111 @@
+
+
+.HeroBG-USSF {
+    background-color: #EFBDBD;
+    padding: 60px;
+    margin-top: 20px;
+    z-index: 0;
+  }
+
+  .responsiveUSSF {
+    width: 100%;
+    height: auto;
+    margin-left: 90px;
+    margin-top: -30px;
+    border: 1px solid #EFBDBD;
+  }
+
+  @media screen and (min-width: 801px) {
+    .responsiveUSSF {
+        margin-left: 90px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .responsiveUSSF {
+        margin-left: 40px;
+    }
+  }
+
+
+
+  @media screen and (min-width: 1001px) {
+    .WebProtoButton {
+        margin-bottom: 0px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .WebProtoButton {
+        margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: 651px) {
+    .WebProtoButton {
+        height: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .WebProtoButton {
+        height: 100px;
+    }
+  }
+
+  .cardTitle {
+    text-align: left;
+}
+
+
+.cardText {
+    text-align: left;
+    display: inline-block;
+}
+
+
+/* MELLOW MUTT  */
+
+.HeroBG-MM {
+  background-color: #EFBDBD;
+  padding: 60px 60px 0 60px;
+  margin-top: 20px;
+  z-index: 0;
+}
+
+.carousel-control-prev {
+  background-color: #643535;
+}
+
+.carousel-control-next {
+  background-color: #643535;
+  }
+  
+
+  /* NEC */
+
+.HeroBG-NEC {
+  background-color: #EFBDBD;
+  padding: 60px;
+  margin-top: 20px;
+  z-index: 0;
+}
+
+.responsiveNEC {
+  width: 100%;
+  height: auto;
+  margin-left: 15px;
+  margin-top: -30px;
+  border: 1px solid #EFBDBD;
+}
+
+/* Beer Cans  */
+
+.responsiveWidth {
+  width: 100%;
+  height: auto;
+}
+
+.Padding10 {
+  padding: 10px;
+}
